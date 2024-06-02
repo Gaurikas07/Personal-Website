@@ -1,20 +1,21 @@
 body{
-  background-image:linear-gradient(to right,  #D2B48C,  #D2B48C);
+  background-image:linear-gradient(to right,darkgreen, #C04000	)
 }
 
 h1{
-    border: 2px solid; /* Border color */
-      padding: 10px; /* Padding inside the border */
-      border-radius: 5px; /* Border radius for rounded corners */
-    color:  #654321 ;
+    border: 2px solid;
+      padding: 10px; 
+      border-radius: 5px; 
+    color:  burlywood  ;
+    background-color: black;
     }
 h2{
     color:#333333;
-    background-color: #F5F5DC;
+    background-color: black;
     border: 2px solid;
       padding: 10px; /* Padding inside the border */
       border-radius: 5px; /* Border radius for rounded corners */
-    color:  #654321 
+    color: burlywood 
 }
 p{
     text-decoration:dashed;
@@ -34,9 +35,31 @@ button{
   transition: width 2s;
     
 }
-button:hover{
-    width:300px;
-}
+
+
 image{
     border-radius: 15px;
+}
+.animated-button {
+  background-color:#D3D3D3  ; /* Green */
+  border: none;
+  color: #C6A9A3;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s; /* Transition for background-color and transform */
+}
+
+.animated-button:hover {
+  background-color:chocolate; /* Darker green on hover */
+  transform: scale(1.1); /* Scale up the button on hover */
+}
+
+.animated-button:active {
+  background-color:maroon; /* Even darker green on click */
 }
