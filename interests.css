@@ -14,12 +14,10 @@ h2{
 }
 
 p{
-    text-decoration:dashed;
-    text-decoration-style: dotted;
+    
     color:white;
     border: 5px solid;
-    padding:10px;
-    border-radius: 8px;
+   
     
 }
 button{
