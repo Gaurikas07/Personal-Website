@@ -1,12 +1,42 @@
-h1{
-    background-color: #121930;
-    color: #808080;
+body{
+  background-image:linear-gradient(to right,  #D2B48C,  #D2B48C);
+}
 
+h1{
+    border: 2px solid #; /* Border color */
+      padding: 10px; /* Padding inside the border */
+      border-radius: 5px; /* Border radius for rounded corners */
+    color:  #654321 ;
+    }
+h2{
+    color:#333333;
+    background-color: #F5F5DC;
+    border: 2px solid;
+      padding: 10px; /* Padding inside the border */
+      border-radius: 5px; /* Border radius for rounded corners */
+    color:  #654321 
 }
 p{
-    color:#000000;
-
+    text-decoration:dashed;
+    -moz-text-decoration-style: dotted;
+    color:#654321;
+    background-color: #D2B48C;
+    border: 5px solid;
+    padding:10px;
+    border-radius: 8px;
+    
 }
 button{
-    color: #FF6F61;
+    color:black;
+    width: 100px;
+  height: 100px;
+  background-color: bisque ;
+  transition: width 2s;
+    
+}
+button:hover{
+    width:300px;
+}
+image{
+    border-radius: 15px;
 }
