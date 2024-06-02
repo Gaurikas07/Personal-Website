@@ -11,14 +11,7 @@ h1{
     background-color: black;
 }
 
-button{
-  color:white;
-  width: 100px;
-height: 100px;
-background-color:white ;
-transition: width 2s;
-  
-}
+
 .animated-button {
   background-color:#D3D3D3  ; /* Green */
   border: none;
@@ -31,15 +24,15 @@ transition: width 2s;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  transition: background-color 0.3s, transform 0.3s; /* Transition for background-color and transform */
+  transition: background-color 0.3s, transform 0.3s; 
 }
 
 .animated-button:hover {
-  background-color:chocolate; /* Darker green on hover */
-  transform: scale(1.1); /* Scale up the button on hover */
+  background-color:chocolate; 
+  transform: scale(1.1);
 }
 
 .animated-button:active {
-  background-color:maroon; /* Even darker green on click */
+  background-color:maroon;
 }
 
