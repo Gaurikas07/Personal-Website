@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(to right,pink,blue);
 }
 h1{
-    color:#800020;
+    color:navy;
     border: 2px solid #CCCCCC; /* Border color */
       padding: 10px; /* Padding inside the border */
       border-radius: 5px; /* Border radius for rounded corners */
