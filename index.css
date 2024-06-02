@@ -68,5 +68,5 @@ h1 {
 }
 
 .animated-button:active {
-  background-color: #3e8e41; /* Even darker green on click */
+  background-color:maroon; /* Even darker green on click */
 }
