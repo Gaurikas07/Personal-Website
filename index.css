@@ -29,8 +29,7 @@ body {
   border-color: #222;
   background-image: linear-gradient(to right,pink,blue);
   font-size: 70px;
-  font-family: 'Roboto', sans-serif; /* Roboto font */
-  text-align: center;
+  text-align:center;
 }
 
 h1 {
@@ -48,3 +47,26 @@ h1 {
   50% { opacity: 0; }
 }
 
+.animated-button {
+  background-color:#D3D3D3  ; /* Green */
+  border: none;
+  color: #C6A9A3;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s; /* Transition for background-color and transform */
+}
+
+.animated-button:hover {
+  background-color:chocolate; /* Darker green on hover */
+  transform: scale(1.1); /* Scale up the button on hover */
+}
+
+.animated-button:active {
+  background-color: #3e8e41; /* Even darker green on click */
+}
