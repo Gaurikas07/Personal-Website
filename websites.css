@@ -1,23 +1,24 @@
 body{
   background-image: linear-gradient(to right,pink,blue);
+
 }
-  
+
 h1{
   border: 2px solid;
-  padding: 10px; 
-  border-radius: 5px; 
-  color:  burlywood  ;
-  background-color: black;
-  }
-
-  button{
-    color:black;
-    width: 100px;
-  height: 100px;
-  background-color: bisque ;
-  transition: width 2s;
+      padding: 10px; 
+      border-radius: 5px; 
+    color: white ;
+    background-color: black;
 }
 
+button{
+  color:white;
+  width: 100px;
+height: 100px;
+background-color:white ;
+transition: width 2s;
+  
+}
 .animated-button {
   background-color:#D3D3D3  ; /* Green */
   border: none;
@@ -32,7 +33,7 @@ h1{
   border-radius: 8px;
   transition: background-color 0.3s, transform 0.3s; /* Transition for background-color and transform */
 }
-  
+
 .animated-button:hover {
   background-color:chocolate; /* Darker green on hover */
   transform: scale(1.1); /* Scale up the button on hover */
@@ -41,3 +42,4 @@ h1{
 .animated-button:active {
   background-color:maroon; /* Even darker green on click */
 }
+
