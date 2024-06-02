@@ -1,6 +1,7 @@
 const textElement = document.getElementById('text');
+const prefixElement = document.getElementById('prefix');
 const cursor = document.getElementById('cursor');
-const texts = ['I am a web developer', 'I am an anchor'];
+const texts = ['I AM A CODER!', 'I AM A WEB DEVELOPER!', 'I AM AN ANCHOR', 'I AM AN EDITOR!'];
 let index = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -12,9 +13,9 @@ function type() {
     charIndex++;
     if (charIndex === currentText.length) {
       isDeleting = true;
-      setTimeout(type, 1000);
+      setTimeout(type, 2000); // Pause after complete typing
     } else {
-      setTimeout(type, 100);
+      setTimeout(type, 100); // Typing speed
     }
   } else {
     textElement.textContent = currentText.substring(0, charIndex - 1);
@@ -23,7 +24,7 @@ function type() {
       isDeleting = false;
       index = (index + 1) % texts.length;
     }
-    setTimeout(type, 100);
+    setTimeout(type, 50); // Backspace speed
   }
 }
 
